@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs",
+      "destination": "https://mintlify.site"
+    },
+    {
+      "source": "/docs/:path*",
+      "destination": "https://mintlify.site*"
+    },
+    {
+      "source": "/_mintlify/:path*",
+      "destination": "https://mintlify.site*"
+    },
+    {
+      "source": "/mintlify-assets/:path+",
+      "destination": "https://mintlify.site+"
+    }
+  ]
+}
