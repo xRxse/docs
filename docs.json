@@ -1,54 +1,52 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "luma",
-  "name": "Mintlify Starter Kit",
+  "name": "NightGuildBot Wiki",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8957E5",
+    "light": "#A38AD0",
+    "dark": "#451B92"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "groups": [
       {
         "group": "Getting Started",
         "pages": [
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "Fishing",
+        "pages": [
+          "features/fishing",
+          "features/rods",
+          "features/fishdex"
+        ]
+      },
+      {
+        "group": "RPG Progression",
+        "pages": [
+          "features/progression",
+          "features/quests",
+          "features/duels"
+        ]
+      },
+      {
+        "group": "Guilds And Administration",
+        "pages": [
+          "features/guilds",
+          "commands/admin",
+          "resources/changelog",
+          "about-me"
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
   },
   "contextual": {
     "options": [
@@ -62,14 +60,7 @@
       "vscode"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
-  "icons": {
-    "library": "lucide"
+  "background": {
+    "decoration": "gradient"
   }
 }
